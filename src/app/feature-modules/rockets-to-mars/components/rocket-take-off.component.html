@@ -1,0 +1,25 @@
+<div class="take-off-container">
+  <div class="rocket">
+    <img src="../../../../assets/rocket.png">
+  </div>
+  <div class="take-off-text">
+    <div class="text-1">
+      <div class="header grid-item">
+        <p>Get your seat to mars!</p>
+      </div>
+      <div class="text-content grid-item">
+        <p>Earth is dommed, but don't worry! The last rocket is leaving for mars soon, so hurry up and book your flight!</p>
+      </div>
+    </div>
+    <div class="hero">
+      <img src="../../../../assets/hero.png">
+    </div>
+  </div>
+  <div class="lift-off-text">Count down to lift off</div>
+  <div class="timer-container">
+    <timer [interval]="1000" [totalSeconds]="30" [timerName]="'timer1'"></timer>
+    <timer [interval]="1000" [totalSeconds]="20" [timerName]="'timer2'"></timer>
+    <timer [interval]="1000" [totalSeconds]="10" [timerName]="'timer3'"></timer>
+  </div>
+</div>
+

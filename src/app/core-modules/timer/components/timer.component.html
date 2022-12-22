@@ -1,0 +1,8 @@
+<div class="timer-container"> 
+  <div class="time">
+    <div class="time-display">{{(minutes$ | async)}}</div>
+    <div class="colon">:</div>
+    <div class="time-display">{{(seconds$ | async)}}</div>
+  </div>
+  <div class="reset"><div (click)="restTimer()">Rest timer</div></div>
+</div>
